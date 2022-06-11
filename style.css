@@ -53,6 +53,8 @@ body{
 }
 .top_two .one{
     margin: 10px 40px;
+    display: flex;
+    align-items: center;
 }
 .top_two .one .so{
     position: absolute;
@@ -75,11 +77,17 @@ body{
     width: 40.00020980834961px;
     margin-left: 46px;
 }
+
+.top_two a{
+    text-decoration: none;
+    color: #272343;
+}
 .top_two .one span{
     font-size: 26px;
     top: 4.5px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
+
 .top_two .two{
     display: flex;
     align-items: center;
@@ -751,3 +759,28 @@ color: #9A9CAA;
   text-decoration: none;
   color: #000000;
 }
+
+
+
+
+/* jquery */
+
+@media screen and (max-width: 850px){
+    .top_two .two .search {
+        width: 290px;  
+    }
+    .top_two {
+        padding: 0px;
+    }
+    .top_two .one {
+        margin: 10px 10px;
+    }
+    .section_2 .main_body .image .dis{
+        left: 78.9%;
+    }
+    .section_2 .main_body .headings {
+        padding: 0;
+    }
+    
+}
+
